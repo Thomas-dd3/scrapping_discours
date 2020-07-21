@@ -5,6 +5,14 @@
 * Jupyter notebook to scrap Emmanuelle Macron "discours"
 * Python script
 
+#### Version 1
+* 777 "discours" in discours_macron.csv
+* 615 "discours" concatenate in discours_macron.txt (from `df[df['monologue'] == True]`)
+
+note
+* Be careful with \n, you may need to clean them
+* Be careful with \ (escaping caracteres), you may also need to clean them
+
 ## Requirements
 
 * python3
